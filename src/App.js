@@ -177,6 +177,15 @@ function App() {
         Log in or Register
         </EuiButton>
 
+        <br/><br/>
+
+        <EuiButton id="toggleMap"
+        onClick={() => {
+        }}
+        >
+        Close Local Map
+        </EuiButton>
+
         </EuiText>
       </EuiPageSideBar>
       <div class="leaflet-container">
